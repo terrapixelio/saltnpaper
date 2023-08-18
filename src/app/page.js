@@ -27,7 +27,7 @@ function home() {
   return (
     <><div className="px-[4.5rem]">
       <div className="absolute top-1/2 transform-translate-y-1/2 uppercase" data-cursor="-exclusion -stick">work</div>
-      <div className="flex justify-center header pt-[4.8rem]">design</div>
+      <div className="flex justify-center header pt-[4.8rem]">designs</div>
     </div>
       <div ref={app} className="App">
         <div className="box">selector</div>
