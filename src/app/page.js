@@ -2,10 +2,7 @@
 
 const { useLayoutEffect, useRef } = React;
 import React from 'react'
-import MouseFollower from "mouse-follower";
 import gsap from "gsap";
-MouseFollower.registerGSAP(gsap);
-
 
 
 function home() {
