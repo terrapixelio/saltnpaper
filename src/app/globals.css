@@ -50,3 +50,21 @@ body {
   justify-content: space-around;
   min-height: 100vh;
 }
+
+
+.animate-text {
+  position: relative;
+  overflow: hidden;
+}
+
+.animate-text .outer {
+  position: relative;
+  display: inline-block;
+}
+
+.animate-text .inner {
+  transform-origin: bottom left;
+  transform: translateY(100%) rotate(2deg);
+  display: inline-block;
+  opacity: 0;
+}

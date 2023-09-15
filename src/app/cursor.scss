@@ -112,13 +112,15 @@ $mf-color-text:#fff !default;
         width:400px;
         height:400px;
         margin:(-400px * 0.5) 0 0 (-400px * 0.5);
+        
 
         img, video {
             position:absolute;
             top:50%;
             left:50%;
             transform:translate(-50%, -50%);
-            border-radius:50%;
+            border-radius:0%;
+
 
             @supports (object-fit:cover) {
                 position:static;
@@ -138,13 +140,13 @@ $mf-color-text:#fff !default;
             padding:1px;
 
             opacity:0;
-            border-radius:50%;
+            border-radius:0%;
 
             transition:transform 0.35s, opacity 0.2s 0.2s;
 
             #{$root}.-media & {
                 opacity:1;
-                transform:scale(0.696);
+                transform:scale(1.2);
                 transition-duration:0.4s, 0.4s;
                 transition-delay:0s, 0s;
             }
